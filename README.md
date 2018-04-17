@@ -1,0 +1,1 @@
+Drive a picture and upload into Google Drive , open a google drive view and get a file resource ID.  Use the resouce id to generate download url.  use the url to generate qr code for download the file.

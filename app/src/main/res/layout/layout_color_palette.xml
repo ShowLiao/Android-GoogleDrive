@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imgBtnBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@color/common_google_signin_btn_text_dark_focused" />
+
+    <ImageButton
+        android:id="@+id/imgBtnWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@color/common_google_signin_btn_text_dark_default" />
+
+    <ImageButton
+        android:id="@+id/imgBtnRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@color/colorAccent" />
+
+    <ImageButton
+        android:id="@+id/imgBtnBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@color/colorPrimary" />
+</LinearLayout>
